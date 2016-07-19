@@ -9,6 +9,9 @@
                 <MenuItem Name="RestartButton" Header="Restart" Click="RestartButton_OnClick"/>
                 <MenuItem Name="ExitButton" Header="Exit" Click="ExitButton_OnClick"/>
             </MenuItem>
+            <MenuItem Header="About" Height="30" Width="50">
+                <MenuItem Name="About" Header="Information" Click="About_OnClick"></MenuItem>
+            </MenuItem>
         </Menu>
 
     </Grid>

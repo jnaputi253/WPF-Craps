@@ -39,5 +39,13 @@ namespace GameOfCraps
         {
             Close();
         }
+
+        private void About_OnClick(object sender, RoutedEventArgs e)
+        {
+            string message = string.Format("Name: Juan Naputi\n" +
+                                           "Version: {0}\n" +
+                                           "Extra Stuff", typeof (MainWindow).Assembly.GetName().Version);
+            MessageBox.Show(message);
+        }
     }
 }
